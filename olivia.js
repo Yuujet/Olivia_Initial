@@ -11,7 +11,7 @@ const database = require("./database.js");
 const cor = '#f7d200';
 const bau = 'https://cdn.discordapp.com/attachments/440690061554614272/481513514645717003/300px-Colossal_Chest.png';
 const DBL = require("dblapi.js");
-const dbl = new DBL('eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjQ3NDc5NTUxMTIzMzM4MDM1MyIsImJvdCI6dHJ1ZSwiaWF0IjoxNTM0MTUxNjk1fQ.K2pUIxCsqfRcEpjAUEoJcV3Pcbufz7lRlo5URsJmNxM', Olivia);
+const dbl = new DBL('[YOUR_TOKEN_DBL]', Olivia);
 
 Olivia.on("ready", async () => {
     Olivia.user.setActivity(`Use - o.ajuda | Servidores: ${Olivia.guilds.size}`, {url: 'https://twitch.tv/JeTe', type: "STREAMING"});
