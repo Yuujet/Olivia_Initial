@@ -1,0 +1,1 @@
+exports.TOKEN2 = 'YOUR_TOKEN'

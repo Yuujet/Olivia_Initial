@@ -1,0 +1,41 @@
+{
+  "name": "nyanko",
+  "version": "1.0.0",
+  "description": "Nyanko Bot",
+  "main": "nyanko.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Yuu",
+  "license": "ISC",
+  "dependencies": {
+    "canvas": "^1.6.11",
+    "chalk": "^2.4.1",
+    "convert-seconds": "^1.0.1",
+    "dblapi.js": "^2.3.0",
+    "discord.js": "^11.3.2",
+    "ffmpeg-binaries": "^3.2.2-3",
+    "figlet": "^1.2.0",
+    "gif-search": "^2.0.1",
+    "google-translate-api": "^2.3.0",
+    "google-translator": "^1.0.1",
+    "graphql-request": "^1.8.2",
+    "jimp": "^0.3.5",
+    "malapi": "0.0.3",
+    "moment": "^2.22.2",
+    "moment-duration-format": "^2.2.2",
+    "mongoose": "^5.2.8",
+    "npm": "^6.4.0",
+    "opusscript": "0.0.6",
+    "pixel-util": "0.0.2",
+    "quick.db": "^6.3.2",
+    "simple-youtube-api": "^5.0.2",
+    "snekfetch": "^4.0.4",
+    "superagent": "^3.8.3",
+    "to-markdown": "^3.1.1",
+    "twemoji": "^11.0.1",
+    "weeb-sh": "^0.3.3",
+    "youtube-info": "^1.2.0",
+    "ytdl-core": "^0.23.0"
+  }
+}
