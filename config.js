@@ -1,1 +1,1 @@
-exports.TOKEN2 = 'YOUR_TOKEN'
+exports.TOKEN2 = 'YOUR_BOT_TOKEN'
