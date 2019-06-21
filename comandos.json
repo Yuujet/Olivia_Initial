@@ -1,0 +1,186 @@
+{
+    "avatar": {
+        "title": "**Avatar de: {{user}}**"
+    },
+    "marry": {
+        "embedI": {
+            "explication": "",
+            "aut": "Como usar:"
+        },
+        "marryON": "`{{member}}`, Você não pode se casar novamente.",
+        "noRingArg": "`{{member}}`, Você não possui este anel.",
+        "invalRing": "`{{member}}`, Este anel não existe.",
+        "argsBot": "`{{member}}`, Você não pode se casar com um bot.",
+        "mention":{
+            "marryOn": "`{{member}}`, Esta pessoa já esta casada."
+        },
+        "accept": "`{{member}}`, o(a) `{{mention}}` aceitou o seu pedido e agora estão casados.",
+        "deny": "`{{member}}`, o seu pedido de casamento foi recusado.",
+        "timeout": "`{{member}}`, o(a) `{{mention}}` demorou para aceitar o seu pedido e seu casamento foi cancelado.",
+        "embed":{
+            "desc": "`{{mention}}`, deseja aceitar o pedido de casamento de `{{member}}`. `sim` ou `não`."
+        }
+    },
+    "divorce": {
+        "embedI": {
+            "aut": "Como usar:",
+            "explication": ""
+        },
+        "marryAt": "Casado(a) com:",
+        "marryUser": "**Nome:** `{{u}}`\n**ID:** `{{i}}`\n**Tempo do Casamento:** `{{t}}`"
+    },
+    "botban": {
+        "noPermission": "`{{member}}`, Você não tem permissão para executar este comando.",
+        "howToUse": "**Como usar:**",
+        "noUserDB": "`{{member}}`, `{{mmember}}` não está em nosso banco de dados. Por favor, use o comando novamente.",
+        "iMentioned": "`{{member}}`, você não pode se banir.",
+        "botMention": "`{{member}}`, você não pode banir um bot.",
+        "unbanned": "`{{member}}`, o `{{mmember}}` foi desbanido.",
+        "bannedNoTime": "`{{member}}`, o `{{mmember}}` foi banido.",
+        "bannedTime": "`{{member}}`, o `{{mmember}}` foi banido até **[**`{{time}}`**]**.",
+        "aliass": "Alternativo:"
+    },
+    "rank": {
+        "nivelG":"<:ranking:579391572391624704> **Classificação de Nivel Global.**\n\n{{nivelg}}\n-------------------------------------\n**Posição:** `{{pos}}º`    **Nivel:** `{{lv}}`\n**Ultima Atualização:** `{{lestUp}}`m atrás",
+        "RkRp":"<:ranking:579391572391624704> **Classificação de Rep Global.**\n\n{{rkRP}}\n-------------------------------------\n**Posição:** `{{pos}}º`    **Rep:** `{{rp}}`\n**Ultima Atualização:** `{{lestUp}}`m atrás",
+        "RkCoins":"<:ranking:579391572391624704> **Classificação de Coins Coins.**\n\n{{rkCoins}}\n-------------------------------------\n**Posição:** `{{pos}}º`    **Coins:** `{{cn}}`\n**Ultima Atualização:** `{{lestUp}}`m atrás",
+        "modules": "**Modulos disponiveis.**",
+        "aliass": "Alternativo:"
+    },
+    "craft": {
+        "listDesc": "**Olá `{{user}}`, Antes de começar a crafitar os anéis você precisa criar o `'main-ring'` usando o `{{prefixo}}craft main-ring`, e depois é só escolher o anel que queira.**",
+        "mainRingEmbed": "**Nome:** `main-ring`\n**Código:** `{{_01}}`\n**Ex:** `{{prefixo}}craft main-ring`",
+        "rubyRingEmbed": "**Nome:** `ruby-ring`\n**Código:** `{{_02}}`\n**Ex:** `{{prefixo}}craft ruby-ring`",
+        "jadeRingEmbed": "**Nome:** `jade-ring`\n**Código:** `{{_03}}`\n**Ex:** `{{prefixo}}craft jade-ring`",
+        "diamondRingEmbed": "**Nome:** `diamond-ring`\n**Código:** `{{_04}}`\n**Ex:** `{{prefixo}}craft diamond-ring`",
+        "main":"`Anel Princial`",
+        "ruby":"`Anel de Ruby`",
+        "jade":"`Anel de Jade`",
+        "diamond":"`Anel de Diamante`",
+        "modules": "**Modulos disponiveis.**",
+        "aliass": "Alternativo:",
+        "ringY": "<:o_yes:582053170822250506>",
+        "ringN": "<:o_no:582053170877038622>",
+        "craftingM": "Crafitando: Anel Principal",
+        "craftingR": "Crafitando: Anel de Ruby",
+        "craftingJ": "Crafitando: Anel de Jade",
+        "craftingD": "Crafitando: Anel de Diamante",
+        "materialsY": "<:o_yes:582053170822250506>  **| <:goldBar:582053403828420642> 1** x Barra de Ouro",
+        "materialsN": "<:o_no:582053170877038622>  **| <:goldBar:582053403828420642> 1** x Barra de Ouro",
+        "materialsRY": "<:o_yes:582053170822250506>  **| <:ruby:584215357749723145> 1** x Ruby",
+        "materialsRN": "<:o_no:582053170877038622>  **| <:ruby:584215357749723145> 1** x Ruby",
+        "materialsJY": "<:o_yes:582053170822250506>  **| <:jade:584215357766631437> 1** x Jade",
+        "materialsJN": "<:o_no:582053170877038622>  **| <:jade:584215357766631437> 1** x Jade",
+        "materialsDY": "<:o_yes:582053170822250506>  **| <:diamond:584215357355720706> 1** x Diamante",
+        "materialsDN": "<:o_no:582053170877038622>  **| <:diamond:584215357355720706> 1** x Diamante",
+        "mainRingsY": "<:o_yes:582053170822250506>  **| 💍 1** x Anel Principal",
+        "mainRingsN": "<:o_no:582053170877038622>  **| 💍 1** x Anel Principal",
+        "ringMaterialsY": "Sim",
+        "ringMaterialsN": "Não",
+        "yesCraftingM": "**O `Anel Principal` foi crafitado com sucesso.**",
+        "yesCraftingR": "**O `Anel de Ruby` foi crafitado com sucesso.**",
+        "yesCraftingJ": "**O `Anel de Jade` foi crafitado com sucesso.**",
+        "yesCraftingD": "**O `Anel de Diamante` foi crafitado com sucesso.**",
+        "noCrafting": "**O orçamento que você tem para fazer este anel não foi o suficiente para completalo.**",
+        "ringCompleted": "Anel completado.",
+        "ringCoinsY": "Sim",
+        "ringCoinsN": "Não",
+        "materials&coins": "**Inventário:**",
+        "materials&coinsField": "**Coins:** {{cQnt}} x Coins\n**Material:** {{gQnt}} x Barra de Ouro",
+        "materials&coinsFieldR": "**Coins:** {{cQnt}} x Coins\n**Material:** {{rQnt}} x Ruby\n**Material:** {{mQnt}} x Anel Principal",
+        "materials&coinsFieldJ": "**Coins:** {{cQnt}} x Coins\n**Material:** {{jQnt}} x Jade\n**Material:** {{mQnt}} x Anel Principal",
+        "materials&coinsFieldD": "**Coins:** {{cQnt}} x Coins\n**Material:** {{dQnt}} x Diamante\n**Material:** {{mQnt}} x Anel Principal"
+    },
+    "shop": {
+        "info": {
+            "desc": "**Olá** `{{member}}`, **está é a minha loja.\nSó vou contar um pouco como ela funciona, escolha uma seção que queira entrar.\nPara entrar em alguma seção é só clicar no emoji que repesenta a seção desejada.\nDentro de cada seção está explicado como comprar.**",
+            "field": "Seções:",
+            "sections": "🛠 **Seção 1 - Materiais**",
+            "title": "Loja"
+        },
+        "embedShop": { 
+            "materiais": {
+                "item": {
+                    "gb": "Barra de Ouro",
+                    "rb": "Ruby",
+                    "jd": "Jade",
+                    "d": "Diamante"
+                },
+                "mTitle": "Seção 1 - Materiais",
+                "mDesc": "**Olá** `{{member}}`, **está é a seção de materiais.\nPra que serve esses materiais ?\nEsses materiais servem para você crafitar de anéis até box.\n\nQuer comprar algum material, utilize o comando:**\n`{{prefixo}}shop material < goldbar | ruby | jade | diamond >`",
+                "mField1": "**Materiais**",
+                "mField2": "<:goldBar:582053403828420642> **1** x Barra de Ouro - **Valor:** `{{mPrice}}`\n<:ruby:584215357749723145> **1** x Ruby - **Valor:** `{{mPrice}}`\n<:jade:584215357766631437> **1** x Jade - **Valor:** `{{mPrice}}`\n<:diamond:584215357355720706> **1** x Diamante - **Valor:** `{{mPrice}}`",
+                "mDescErr": "**Atualmente essa seção se encontra em manutenção.**",
+                "mBuy": {
+                    "mBuyConfirmation": {
+                        "mBuyConfDesc": "`{{member}}`, **para essa compra ser confirmada você precisa digitar este código de verificação** `{{code}}`**.\nSe quiser cancelar a compra só digitar **`cancel`**.**",
+                        "mBuyConfDescCancel": "**Compra cancelada com sucesso.**"
+                    },
+                    "mBuyDesc": "**Extrato de compra de:** `{{member}}`**.**",
+                    "mBuyField1": "*Item comprado.*",
+                    "mBuyField2": "{{emote}} **1** x {{item}}\n**Valor Gasto:** `{{mbPrice}}`",
+                    "mBuyErr": "**Me parece que você não tem coins suficiente.**"
+                },
+                "agrsNull": "`{{member}}`, este material não existe.",
+                "validArg": "`{{member}}`, materiais atualmente disponíveis. Itens: {{products}}."
+            }
+        }       
+    },
+    "blacklist": {
+        "noPermission": "`{{member}}`, você não tem permissão para executar este comando.",
+        "noBanList": "Não foi encontrado nenhum banimento.",
+        "descEmbed": "**Lista de Banimentos.**",
+        "lengthBans": "**[{{num}}]**",
+        "baniments": "**Usuários Banidos:**"
+    },
+    "manulist": {
+        "noPermission": "`{{member}}`, você não tem permissão para executar este comando.",
+        "noBanList": "Não foi encontrado nenhum comando em manutenção.",
+        "descEmbed": "**Lista dos comandos em manutenção.**",
+        "lengthBans": "**[{{num}}]**",
+        "baniments": "**Comandos em manutenção:**"
+    },
+    "botconfig": {
+        "noPermission": "`{{member}}`, Você não tem permissão para executar este comando.",
+        "howToUse": "**Como usar:**",
+        "invalidFunc": "`{{member}}`, Esta função não existe.",
+        "noCmdManu": "`{{member}}`, Está faltando o comando que deseja colocar em manurenção.",
+        "cmdNotExist": "`{{member}}`, Este comando não existe.",
+        "activated": "`{{member}}`, O comando `{{cmd}}` entrou em manutenção.",
+        "disabled": "`{{member}}`, O comando `{{cmd}}` foi retirado da manutenção.",
+        "aliass": "Alternativo:"
+    },
+    "give": {
+        "howToUse": "**Como usar:**",
+        "noUserDB":"`{{member}}`, Este usuário não existe em nosso sistema, use o comando novamente.",
+        "isNaN":"`{{member}}`, O valor precisa ser um número.",
+        "insufficientCodes":"`{{member}}`, Coins insuficientes.",
+        "bellow0": "`{{member}}`, O valor precisa ser maior que `0`.",
+        "given": "`{{member}}`, Você deu **{{cn}}** coins para `{{mention}}`.",
+        "aliass": "Alternativo:"
+    },
+    "rep": {
+        "howToUse": "**Como usar:**",
+        "noUserDB":"`{{member}}`, Este usuário não existe em nosso sistema, use o comando novamente.",
+        "argsYou": "`{{member}}`, Você não pode dar rep para si mesmo.",
+        "argsBot": "`{{member}}`, Você não pode dar rep para um bot.",
+        "repOn": "`{{member}}`, Já pode dar rep.",
+        "repOff": "`{{member}}`, Você já deu rep.\n**Próximo rep:** `{{repTime}}`",
+        "repOk": "`{{member}}`, Você deu rep para `{{mention}}.`"
+    },
+    "eval": {
+        "noCode": "É necessário inserir um código para execução.",
+        "code": "💿 Código:",
+        "result": "📀 Resultado:",
+        "error": "❌ Erro:"
+    },
+    "lang": {
+        "noPermission": "`{{member}}`, você não tem permissão para executar este comando.",
+        "inWindow": "`{{member}}`, você já esta escolhendo  a linguagem, escolha rapido ou espere 1 minuto.",
+        "noPermBot": "`{{member}}`, não tenho permissão para adicionar reações.",
+        "title": "📋 Linguagens:",
+        "notHaveErrors": "sem erros no momento",
+        "currentLanguage": "este servidor já está com esse idioma",
+        "desc": "Para mudar o idioma do bot, só clicar na react que representa o país.\n\n**Erro:** `{{error}}`"
+    }
+}
